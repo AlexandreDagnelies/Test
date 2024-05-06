@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build
+build
+dist
+dist-ssr
+
+
+# NPM / yarn
+node_modules
+package-lock.json
+
+
+# Editor directories and files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+todo.md
+
+# Webstorm
+.idea
+*.iml
+
+#Vscode
+.vscode/*
+!.vscode/extensions.json
+
+# Atom
+.save.cson
+
+# Misc
+.DS_STORE
+
+# Jest and generic test utilities
+/coverage/
+
+# Istanbul
+/.nyc_output/*
+
+# SonarQube
+/.scannerwork/*
+
+# Local environment files
+/.env*local
+
+# CI generate files
+.run-release.ci.yml
